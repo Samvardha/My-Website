@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    text-align: center
+}
+
+
+/*Top Container Styling */
+.container-top{
+    display: flex;
+    position: relative;
+    background-color: #FCFFE0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    height: 700px;
+    color: #55775c;
+    text-align: center;
+    user-select: none;
+    margin-bottom: 100px;
+}
+
+.heading {
+    font-family: "Satisfy", cursive;
+    padding-top: 500px;
+    font-size: 75px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    transition: color 0.25s ease-in-out;
+}
+
+.heading:hover {
+    color: #314735;
+}
+
+h2  {
+    position: relative;
+    font-size: 40px;
+    bottom: 150px;
+    margin: 0;
+    padding: 0;
+    font-family:"Averia Serif Libre", serif;
+}
+
+.pic {
+    position: relative;
+    bottom: 370px;
+    height: 510px;
+    width: 510px;
+    left: 30px;
+}
+
+#plane{
+    position: relative;
+    height: 200px;
+    margin: 0;  
+    bottom: 180px;
+    left: 335px;
+}
+
+#plane2 {
+    position: relative;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    bottom: 245px;
+    right: 280px;
+}
+
+span {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+
+/*Mid Container Styling*/
+.container-mid {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    margin: 0;
+    padding-top: 175px;
+    color: #55775c;
+    padding-bottom: 240px;
+    margin-bottom: 60px;
+    user-select: none;
+}
+
+#pfp {
+    position:relative;
+    height: 200px;
+    border-radius: 50%;
+    padding: 0;
+    margin-bottom: 115px;
+}
+
+.information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#hello{
+    position: relative;
+    font-size: 40px;
+    padding-top: 60px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+#info {
+    position: relative;
+    bottom: 125px;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    width: 300px;
+    padding: 0;
+}
+
+hr {
+    width: 500px;
+    border-top: solid 2px #75a47f38;
+    border-style:dashed;
+    border-bottom: none;
+}
+
+/*End Container Styling*/
+.container-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #55775c;
+    user-select: none;
+}
+
+#hello2 {
+    display: contents;
+    position: relative;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 0;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto;
+    grid-template-rows: 40px auto;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.skills1 {
+    font-family: "Averia Serif Libre", serif;
+    font-size: 20px;    
+    order: 2;
+    grid-area: 1/2/2/3;
+    text-align: left;
+}
+
+.skills2 {
+    font-family: "Averia Serif Libre", serif;
+    font-size: 20px;
+    order: 4;
+    text-align: left;
+}
+
+.skill-image1 {
+    height: 158px;
+    width: 158px;
+    order: 1;
+    grid-area: 1/1/5/2;
+}
+
+.skill-image2 {
+    height: 158px;
+    width: 158px;
+    order: 3;
+    grid-area: 1/3/5/4;
+}
+
+#para1{
+    color: black;
+    text-align: justify;
+    width: 200px;
+    order: 5;
+}
+
+#para2 {
+    color: black;
+    text-align: justify;
+    width: 200px;
+    order: 6;
+}
+
+.hari {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 140px;
+} 
+
+/* Contact Container Styling>*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    color: #55775c;
+    padding-top: 75px;
+    user-select: none;
+    margin-bottom: 75px;
+}
+
+#last {
+    font-size: 20px;
+    width: 600px;
+    color: #314735;
+    position: relative;
+    bottom: 100px;
+    margin: 0;
+}
+
+.button {
+    position: relative;
+}
+
+#con-me {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #BACD92;
+    color: black;
+    font-family: "Averia Serif Libre", serif;
+    text-decoration: none;
+    width: auto;
+    border-radius: 25%;
+    border-color: transparent;
+    transition: background-color 150ms ease-in-out;
+}
+
+#con-me:hover {
+    color: white;
+    background-color: #314735;
+}
+
+#song {
+    text-decoration: none;
+    color: #314735;
+    padding-top: 50px;
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+    transition: color 200ms ease-in-out;
+}
+
+#song > svg {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#song:hover {
+    color: #55775c;
+}
+
+/*Footer Styling*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #b3ba78;
+    height: 15vh;
+}
+
+#foot {
+    color: black;
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+}
+
+#foot:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+
+
