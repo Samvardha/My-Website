@@ -292,8 +292,152 @@ footer {
     color: white;
 }
 
+@media (max-width: 1170px) {
 
+    .heading {
+        padding-top: 300px;
+    }
 
+    h2  {
+        bottom: 75px;
+    }
 
+    .pic {
+        bottom: 137px;
+        height: 410px;
+        width: 410px;
+    }
 
+    #plane {
+        height: 100px; 
+        bottom: 125px;
+        left: 285px;
+    }
 
+    #plane2 {
+        height: 100px;
+        bottom: 120px;
+        right: 210px;
+    }
+
+    #hello {
+        padding-top: 0px;   
+    }
+
+    #info {
+        bottom: 50px;
+    }
+
+    #last {
+        bottom: 50px;
+    }
+
+    hr {
+        border: dotted #75a47f38 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+    }
+}
+
+@media (max-width: 785px) {
+    .skills {
+        display: block;
+        padding-top: 50px;
+    }
+
+    .skill-image1 {
+        height: 128px;
+        width: 128px;
+    }
+    
+    .skill-image2 {
+        height: 128px;
+        width: 128px;
+        padding-top: 50px;
+    }
+
+}
+
+@media (max-width: 675px) {
+    .container-top{
+        margin-bottom: 150px;
+    }
+
+    .pic {
+        bottom: 78px;
+        height: 310px;
+        width: 310px;
+    }
+
+    #plane {
+        height: 75px; 
+        bottom: 225px;
+        left: 60px;
+    }
+
+    #plane2 {
+        height: 75px;
+        bottom: 330px;
+        right: 25px;
+    }
+
+    #last {
+        font-size: 20px;
+        width: 450px;
+    }
+}
+
+@media (max-width: 480px) {
+    #last {
+        font-size: 15px;
+        width: 300px;
+    }
+    #info {
+        bottom: 50px;
+        width: auto;
+    }
+}
+
+@media (max-width: 445px) {
+    .pic {
+        bottom: 132px;
+        height: 310px;
+        width: 310px;
+        left: 0px;
+    }
+
+    #plane {
+        height: 75px; 
+        bottom: 325px;
+        left: 60px;
+    }
+
+    #plane2 {
+        height: 75px;
+        bottom: 430px;
+        right: 25px;
+    }
+
+    h2  {
+        width: auto;
+    }
+}
+
+@media (max-width: 325px) {
+    .heading {
+        font-size: 60px;
+        padding-top: 200px;
+    }
+
+    h2  {   
+        font: 20px;
+    }
+
+    .pic {
+        bottom: 35px;
+        height: 250px;
+        width: 250px;
+        left: 0px;
+    }
+}
