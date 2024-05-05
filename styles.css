@@ -256,7 +256,8 @@ hr {
 #song {
     text-decoration: none;
     color: #314735;
-    padding-top: 50px;
+    margin-top: 50px;
+    padding: 0px;
     font-family: "Satisfy", cursive;
     font-size: 30px;
     transition: color 200ms ease-in-out;
